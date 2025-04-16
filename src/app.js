@@ -99,10 +99,7 @@ app.get('/weather', (req, res) => {
         })
     })
 
-    // res.send({
-    //     forecast: 'It is snowing',
-    //     location: req.query.address
-    // })
+
 })
 
 app.get('/products', (req, res) => {
